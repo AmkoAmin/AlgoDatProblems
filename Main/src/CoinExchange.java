@@ -13,7 +13,7 @@ public class CoinExchange {
         return calcRecursively(Betrag, 0);
     }
 
-    public int calcRecursively(int Betrag, int i){
+    private int calcRecursively(int Betrag, int i){
 
         if (i == coins.length || Betrag < 0) return INF;
 
